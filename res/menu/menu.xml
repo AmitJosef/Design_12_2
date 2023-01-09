@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btms"
+        android:title="BACK TO MAIN SCREEN" />
+    <item
+        android:id="@+id/settings"
+        android:title="SETTINGS" />
+    <item
+        android:id="@+id/btn_rules"
+        android:title="RULES" />
+    <item
+        android:id="@+id/btn_statistics"
+        android:title="STATISTICS" />
+    <item
+        android:id="@+id/sgs"
+        android:title="SAVE GAME STATUS" />
+    <item
+        android:id="@+id/quit"
+        android:title="QUIT" />
+</menu>

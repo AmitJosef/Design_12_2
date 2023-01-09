@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swc_music"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="MUSIC" />
+
+        <TextView
+            android:id="@+id/just_space"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Switch
+            android:id="@+id/swc_sound"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="SOUND" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/to_rules"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="RULES" />
+
+        <TextView
+            android:id="@+id/just_space2"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/to_stats"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="STATISTICS" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cnu_o"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="CREATE NEW USER" />
+
+        <TextView
+            android:id="@+id/just_space3"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btm_o"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="BACK TO MAIN SCREEN" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_okSet"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="OK" />
+    </LinearLayout>
+
+</LinearLayout>
